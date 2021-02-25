@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Landing page</title>
+	<link rel="stylesheet" type="text/css" href="landingPage.css">
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<h2>Trekt.</h2>
+		</div>
+		<ul>
+			<li><a href="#container-satu">Home</a></li>
+			<li><a href="#container-dua">Offer</a></li>
+			<li><a href="#container-tiga">Blog</a></li>
+			<li><a href="#container-delapan">Contact</a></li>
+			<li><button>Get started</button></li>
+		</ul>
+	</nav>
+
+	<!-- -----------------------AKHIR NAVBAR----------------------- -->
+	<div class="container-satu" id="container-satu">
+		<div class="teks-satu">
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e</h2>
+			<p>{{ wordss }}</p>
+			<div class="inputan">
+				<input type="text" name="search" style="margin: 40px 0;" placeholder="  Your Email Addres">
+				<button>Subscribes</button>
+			</div> 
+		</div>
+		<div class="foto-satu">
+			<div class="ft-content ft-section" style="max-width:500px">
+				  <img class="mySlides" src="https://img.freepik.com/free-vector/pair-programming-concept-illustration_114360-3941.jpg?size=626&ext=jpg&ga=GA1.2.1540692673.1613979439" style="width:100%">
+				  <img class="mySlides" src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg&ga=GA1.2.635032699.1613880540" style="width:100%">
+				  <img class="mySlides" src="https://img.freepik.com/free-vector/qr-code-scanning-concept_23-2148644497.jpg?size=626&ext=jpg&ga=GA1.2.635032699.1613880540" style="width:100%">
+			</div>
+		</div>
+	</div>
+	<div class="container-dua" id="container-dua">
+		<div class="teks-dua">
+			<p class="pp">WHAT WE DO</p>
+			<h2>Our Over</h2>
+			<p>{{ katatwo }}</p>
+		</div>
+		<div class="foto-dua">
+			<div class="ft1">
+				<img src="https://img.freepik.com/free-vector/international-literacy-day-with-lots-books_23-2148608688.jpg?size=338&ext=jpg&ga=GA1.2.1540692673.1613979439" width="100%">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+			<div class="ft2">
+				<img src="https://img.freepik.com/free-vector/stack-books-graphic-illustration_53876-8852.jpg?size=626&ext=jpg&ga=GA1.2.1540692673.1613979439" width="100%">
+				<p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+			</div>
+			<div class="ft3">
+				<img src="https://img.freepik.com/free-vector/gradient-world-book-day-illustration-with-man-reading-book_23-2148867575.jpg?size=338&ext=jpg&ga=GA1.2.1540692673.1613979439" width="100%">
+				<p>Lorem ipsum dolor sit amet, consectetur adipis</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-tiga" id="container-tiga">
+		<div class="teks">
+			<h1>Features</h1>
+			<p v-text="katatelu"></p>
+		</div>
+		<div class="btn">
+			<button><</button>
+			<button>></button>
+		</div>
+	</div>
+	<div class="container-empat" id="container-empat">
+		<a href="https://img.freepik.com/free-vector/wifi-isometric-icon-wireless-internet-technology-isolated-vector-illustration_107791-4535.jpg?size=626&ext=jpg&ga=GA1.2.1540692673.1613979439" width="150px">
+			<div class="card-satu">
+				<div class="overlay">
+					<img src="https://img.freepik.com/free-vector/wifi-isometric-icon-wireless-internet-technology-isolated-vector-illustration_107791-4535.jpg?size=626&ext=jpg&ga=GA1.2.1540692673.1613979439" width="150px">
+				</div>
+				<p><b>Create Product roadmaps</b></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+		</a>
+		<a href="https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18383.jpg?size=338&ext=jpg&ga=GA1.2.635032699.1613880540">
+			<div class="card-dua">
+				<div class="overlay">
+					<img src="https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18383.jpg?size=338&ext=jpg&ga=GA1.2.635032699.1613880540" width="150">
+				</div>
+				<p><b>Create Product roadmaps</b></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+		</a>
+		<a href="https://img.freepik.com/free-vector/domain-flipping-abstract-concept-illustration-changing-domain-flipping-domains-internet-business-buying-name-high-price-register-website-web-hosting_335657-137.jpg?size=338&ext=jpg&ga=GA1.2.635032699.1613880540">
+			<div class="card-tiga">
+				<div class="overlay">
+					<img src="https://img.freepik.com/free-vector/domain-flipping-abstract-concept-illustration-changing-domain-flipping-domains-internet-business-buying-name-high-price-register-website-web-hosting_335657-137.jpg?size=338&ext=jpg&ga=GA1.2.635032699.1613880540" width="150">
+				</div>
+				<p><b>Create Product roadmaps</b></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+		</a>
+		<a href="https://img.freepik.com/free-vector/data-management-collective-database-tower-people-share-commonplace-centralized-mainframe-widespread-info-stored-files-custom-regulation-vector-isolated-concept-metaphor-illustration_335657-2129.jpg?size=338&ext=jpg&ga=GA1.2.635032699.1613880540">
+			<div class="card-empat">
+				<div class="overlay">
+					<img src="https://img.freepik.com/free-vector/data-management-collective-database-tower-people-share-commonplace-centralized-mainframe-widespread-info-stored-files-custom-regulation-vector-isolated-concept-metaphor-illustration_335657-2129.jpg?size=338&ext=jpg&ga=GA1.2.635032699.1613880540" width="150">
+				</div>
+				<p><b>Create Product roadmaps</b></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div>
+		</a>
+	</div>
+	<div class="container-lima" id="container-lima">
+		<div class="foto-satu">
+			<img src="https://img.freepik.com/free-vector/javascript-frameworks-concept-illustration_114360-4699.jpg?size=626&ext=jpg&ga=GA1.2.1540692673.1613979439" width="90%">
+		</div>
+		<div class="teksSatu">
+			<p class="ppp">WHY OUR PROGRAM</p>
+			<h2>Benefits</h2>
+			<p v-text="katatelu"></p>
+		</div>
+	</div>
+	<div class="container-enam" id="container-enam">
+		<div class="judul">
+			<h1>Don't Just take our words for it</h1>
+		</div>
+		<div class="testy">
+			<div class="testimoni-satu">
+				<p v-text="katafive"></p>
+				<div class="profil">
+					<div class="circle satu">
+						<img src="https://img.freepik.com/free-photo/mand-holding-cup_1258-340.jpg?size=626&ext=jpg&ga=GA1.2.635032699.1613880540" width="300">
+					</div>
+					<p><b>stiven</b><br>Dosen</p>
+				</div>
+			</div>
+			<div class="testimoni-dua">
+				<p v-text="katafive"></p>
+				<div class="profil">
+					<div class="circle dua">
+						<img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?size=626&ext=jpg&ga=GA1.2.635032699.1613880540" width="120">
+					</div>
+					<p><b>Crhisty</b><br>Sekretaris</p>
+
+				</div>
+			</div>
+			<div class="testimoni-tiga">
+				<p v-text="katafive"></p>
+				<div class="profil">
+					<div class="circle">
+						<img src="https://img.freepik.com/free-photo/positive-male-customer-presenting-new-product_74855-3636.jpg?size=626&ext=jpg&ga=GA1.2.635032699.1613880540" width="120">
+					</div>
+					<p><b>Kelvin</b><br>Guru</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-tujuh" id="container-tujuh">
+		<h2>Our Partners</h2>
+		<p>Our goal is to educate young profesionals on the product management industry while also providing users a way to practice their skills.</p>
+		<div class="partner">
+			<ul>
+				<li><a href="#">
+					<img src="https://1.bp.blogspot.com/-9T3V5Jm9F-w/YDcOuwD8dPI/AAAAAAAAAMI/B-gsSYw68Q8eArAbCFJ2PXbw6Hd7jv-oQCLcBGAsYHQ/s0/Screenshot%2B%252848%2529.png">
+					</a>
+				</li>
+				<li><a href="#">
+					<img src="https://1.bp.blogspot.com/-rGwFnJG6WYE/YDcOwUESiUI/AAAAAAAAAMM/oRcjN5eaHewU7DFCXonb1Wm9hNp-KGTZACLcBGAsYHQ/s0/Screenshot%2B%252849%2529.png">
+					</a>
+				</li>
+				<li><a href="#">
+					<img src="https://1.bp.blogspot.com/-_0QasWzIuA0/YDcOx90c_NI/AAAAAAAAAMQ/pFLat_mp-LkEQLFwGibN-3_dHSQK-Qt9ACLcBGAsYHQ/s0/Screenshot%2B%252850%2529.png">
+					</a>
+				</li>
+				<li><a href="#">
+					<img src="https://1.bp.blogspot.com/-iyblhA1pZ50/YDcOzD1Q5aI/AAAAAAAAAMU/2Q022NociXE8q2fCTYM0aSdTb69UDhkGQCLcBGAsYHQ/s0/Screenshot%2B%252851%2529.png">
+					</a>
+				</li>
+				<li><a href="#">
+					<img src="https://1.bp.blogspot.com/-Ri5DVQ7MK30/YDcO0HqgI_I/AAAAAAAAAMY/CgetF6WAKUE61ehyZxfyL_Mw-3UrXT2owCLcBGAsYHQ/s0/Screenshot%2B%252852%2529.png">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-delapan" id="container-delapan">
+		<div class="word-satu">
+			<div class="mainn">
+				<h2>Trekt.</h2>
+				<p>Our Platform helps you build easy-to-Navigate. <br>cross platform experiences</p>
+			</div>
+			<div class="input">
+				<input type="email" name="email" placeholder="  Your Email Addres">
+				<button>Send</button>
+			</div>
+		</div>
+		<div class="word">
+			<p><b>Products</b></p>
+			<p><a href="">Product</a></p>
+			<p><a href="">Solutions</a></p>
+			<p><a href="">Why Trekt</a></p>
+			<p><a href="">Comunity</a></p>
+			<p><a href="">Company</a></p>
+		</div>
+		<div class="word">
+			<p><b>Resources</b></p>
+			<p><a href="">Suport</a></p>
+			<p><a href="">Contact</a></p>
+			<p><a href="">Press</a></p>
+			<p><a href="">eBooks&Guides</a></p>
+			<p><a href="">FAQs</a></p>
+		</div>
+		<div class="word">
+			<p><b>Connect</b></p>
+			<p><a href="">Contact Us</a></p>
+			<p><a href="">Office Locations</a></p>
+			<p><a href="">Careers</a></p>
+		</div>
+	</div>
+	<div class="container-sembilan">
+		<div class="copy">
+			<p>CopyRight trekt.All Rights Reserved</p>
+		</div>
+		<div class="contact-us">
+			<p><b>Contact Us</b></p>
+			<div class="sosmed">
+				<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEPvugW8_7FaqFB2EQGm3ADPvfg0pEoqrieQ&usqp=CAU" width="40" ></a>
+				<a href=""><img src="https://1.bp.blogspot.com/-ryyl-wFzz3Q/YDe1i-qvxWI/AAAAAAAAAM4/OCM3oPmh5hEai4vznCosbos2aS7wOGKogCLcBGAsYHQ/s0/download.jpg" width="40" ></a>
+				<a href=""><img src="https://1.bp.blogspot.com/-bqrv3k0hGoQ/YDe1cEyLQ_I/AAAAAAAAAMw/522rKO5tvC4gEmDwfG4U148ubPfsaIzAgCLcBGAsYHQ/s0/download.png" width="40" ></a>
+			</div>
+		</div>
+		<div class="helping">
+			<p><b>Help Center</b></p>
+			<a href="#">helpcenter@trekt.com</a>
+		</div>
+	</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
+
+<script type="text/javascript">
+			
+	const latihan = {
+			wordss: 'Trek. is a product educating platform. Trekt. aims to empower individuals to become Product Managers.'
+	}
+	const katadua = {
+			katatwo: 'Our goal is to educate young profesionals on the product management industry while also providing users a way to practice their skills.'
+	}
+	const katatiga = {
+			katatelu: 'Our goal is to educate young profesionals on the product management industry while also providing users a way to practice their skills.'
+	}
+	const kataempat = {
+			katatelu: 'Our goal is to educate young profesionals on the product management industry while also providing users a way to practice their skills.'
+	}
+	const katalima = {
+			katafive: 'Our goal is to educate young profesionals on the product management industry while also providing users a way to practice their skills.'
+	}
+	const kataenam = {
+			katasix: 'Our goal is to educate young profesionals on the product management industry while also providing users a way to practice their skills.'
+	}
+	const vm = new Vue({
+		el: '#container-satu',
+		data: latihan
+	})
+	const vmm = new Vue({
+		el: '#container-dua',
+		data: katadua
+	})
+	const vw = new Vue({
+		el: '#container-tiga',
+		data: katatiga
+	})
+	const vwm = new Vue({
+		el: '#container-lima',
+		data: kataempat
+	})
+	const vwmm = new Vue({
+		el: '#container-enam',
+		data: katalima
+	})
+	const vc = new Vue({
+		el: '#container-tujuh',
+		data: kataenam
+	})
+
+</script>
+</body>
+</html>

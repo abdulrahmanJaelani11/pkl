@@ -1,0 +1,450 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 15px;
+	display: flex;
+	justify-content: space-around;
+	background-color:rgba(255,0,0,0);
+	/*background-image: linear-gradient(to right, #00e600 ,  #4dff4d);*/
+}
+nav .logo{
+	/*width: 50%;*/
+	color: #00cc00;
+}
+nav ul{
+	list-style: none;
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	/*font-family: arial, sans-serif;*/
+
+}
+nav ul li a:hover{
+	background-color: yellow;
+	border-radius: 10px;
+	color: black;
+}
+nav ul li button{
+	padding: 5px;
+	border-radius: 10px;
+	border: 0;
+	cursor: pointer;
+	background-color: #00cc00;
+	color: white;
+	font-weight: bold;
+}
+.container-satu{
+	padding: 50px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/*background-color: yellow;*/
+}
+.container-satu .teks-satu{
+	width: 34%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*background-color: salmon;*/
+	box-sizing: border-box;
+}.container-satu .teks-satu h2{
+	font-size: 40px;
+	margin: 10px 0;
+}
+.teks-satu input{
+	width: 250px;
+	height: 35px;
+	border-radius: 15px;
+	border: 0;
+	box-shadow: 0 0 5px #888888;
+}
+.teks-satu button{
+	padding: 10px;
+	border-radius: 15px;
+	border: 0;
+	background-image: linear-gradient(to right, #009900 ,  #00cc00);
+	margin-left: -60px;
+	box-shadow: 5px 0 4px #888888;
+	cursor: pointer;
+	color: white;
+}
+.container-satu .foto-satu{
+	width: 40%;
+	/*background-color: red;*/
+}
+/*.container-satu .foto-satu img{
+	margin: 0 100px;
+}*/
+.container-dua .teks-dua{
+	text-align: center;
+	padding: 50px 0 0 0;
+}
+.container-dua .teks-dua h2{
+	font-size: 30px;
+}
+.teks-dua .pp{
+	font-size: 10px;
+	color: #009900;
+}
+.teks-dua p{
+	padding: 10px;
+}
+.container-dua .foto-dua{
+	padding: 50px 0;
+	margin: auto;
+	width: 90%;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: space-around;
+}
+.foto-dua .ft1{
+	width: 16%;
+	/*background-color: red;*/
+	text-align: center;
+}
+.foto-dua .ft2{
+	width: 16%;
+	/*background-color: red;*/
+	text-align: center;
+}
+.foto-dua .ft3{
+	width: 16%;
+	/*background-color: red;*/
+	text-align: center;
+}
+.container-tiga{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/*background-color: yellow;*/
+}
+.container-tiga .teks{
+	width: 43%;
+	/*background-color: salmon;*/
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+}
+.container-tiga .btn{
+	width: 34%;
+	height: 40px;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: flex-end;
+}
+.btn button{
+	padding: 0 18px;
+	border-radius: 50%;
+	font-size: 20px;
+	border: 0;
+	cursor: pointer;
+	background-color: #1aff1a;
+	margin-right: 20px;
+}
+.container-empat{
+	margin: auto;
+	padding: 30px 0;
+	width: 95%;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: space-between;
+}
+.container-empat a{
+	width: 20%;
+	/*background-color: blue;*/
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
+.card-satu p{
+	text-align: center;
+}
+.container-empat a{
+	width: 20%;
+	/*background-color: blue;*/
+	height: 250px;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
+.container-empat a{
+	width: 20%;
+	/*background-color: blue;*/
+	height: 250px;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
+.container-empat a{
+	width: 20%;
+	/*background-color: blue;*/
+	height: 250px;
+	text-align: center;
+	box-shadow: 0 0 5px black;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
+.container-lima{
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+.container-lima .foto-satu{
+	width: 55%;
+	/*background-color: salmon;*/
+}
+.container-lima .foto-satu img{
+	/*width: 100%;*/
+	margin-left: 50px;
+}
+.container-lima .teksSatu{
+	width: 35%;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: left;
+	flex-direction: column;
+	/*background-color: red;*/
+
+}
+.teksSatu .ppp{
+	padding: 50px 0 0 0;
+	font-size: 10px;
+	color: #009900;
+
+}
+.teksSatu h2{
+	font-size: 30px;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+.container-enam{
+	width: 100%;
+	height: 280px;
+	/*background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-enam .judul{
+	width: 75%;
+	/*background-color: red;*/
+}
+.container-enam .testy{
+	/*background-color: salmon;*/
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.testy .testimoni-satu{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: red;*/
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
+	padding: 10px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+.testy .testimoni-dua{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: red;*/
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
+	padding: 10px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+.testy .testimoni-tiga{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	/*background-color: red;*/
+	border-radius: 20px;
+	box-shadow: 0 0 5px black;
+	padding: 10px;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+.profil{
+	display: flex;
+	width: 100%;
+	/*background-color: yellow;*/
+	justify-content: space-between;
+}
+.profil .circle{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px; 
+	overflow: hidden;
+	box-shadow: 0 0 2px black;
+	/*background-color: blue;*/
+
+}
+.profil p{
+	width: 65%;
+	padding: 7px 0 0 0;
+	/*background-color: salmon;*/
+}
+.circle.satu img{
+	margin-left: -85px;
+}
+.circle.dua img{
+	margin-left: -20px;
+}
+.container-tujuh{
+	padding: 50px 0;
+	box-sizing: content-box;
+	width: 100%;
+	height: 200px;
+	/*background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.container-tujuh h2{
+	font-size: 30px;
+}
+.container-tujuh .partner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	/*background-color: salmon;*/
+	justify-content: center;
+} 
+.container-tujuh .partner ul{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*background-color: red;*/
+	align-items: center;
+	list-style: none;
+}
+.partner ul a{
+	width: 25%;
+	/*background-color: royalblue;*/
+
+}
+.container-delapan{
+	padding: 30px 0 40px 0;
+	width: 80%;
+	margin: auto;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: space-around;
+}
+.word-satu .mainn h2{
+	font-size: 30px;
+	padding: 0 0 20px 0;
+}
+.word-satu .mainn p{
+	padding: 10px 0;
+} 
+.word-satu .input input{
+	width: 90%;
+	height: 30px;
+	border-radius: 15px;
+	border: 0;
+	box-shadow: 0 0 3px black;
+}
+.word-satu .input button{
+	padding: 8px;
+	background-color: #009900;
+	color: white;
+	border: 0;
+	border-radius: 15px;
+	box-shadow: 0 0 3px black;
+	margin-left: -40px;
+}  
+.container-delapan .word-satu{
+	width: 25%;
+	/*background-color: red;*/
+}
+.container-delapan .word{
+	width: 15%;
+	/*background-color: red;*/
+	text-align: center;
+	height: 170px;
+}
+.container-delapan .word a{
+	text-decoration: none;
+	color: black;
+}
+.container-delapan .word p{
+
+	padding: 5px 0
+}
+.container-sembilan{
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: center;
+}
+.container-sembilan .copy{
+	width: 30%;
+	/*background-color: salmon;*/
+	text-align: center;
+}
+.container-sembilan .contact-us{
+	width: 30%;
+	height: 70px;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-direction: column;
+}
+.container-sembilan .helping{
+	width: 30%;
+	/*background-color: blue;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.helping a{
+	text-decoration: none;
+	color: black;
+}
